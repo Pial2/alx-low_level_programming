@@ -7,12 +7,14 @@
  * @n: no of bytes
  * Return: dest
  */
-char *_memcpy(char *dest, char *src, unsigned in n)
+char *_memcpy(void *dest, const void *src, size_t in n)
 {
-	unsigned in 1;
+	unsigned int index;
+	unsigned char *destination = dest;
+	const unsigned char *source = src;
 
-	for (1 = 0; i < n; i++)
-		dest[i] = src[i]
+	for (index = 0; index < n; index++)
+		destination[index] = source[index];
 
 	return (dest);
 }

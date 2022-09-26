@@ -9,7 +9,7 @@
  * Return: if a set is matched - a pointer to the matched bytes.
  *     if no set is matched - NULL
  */
-char *_strpbrk(char *s, char *accept)
+char*_strpbrk(char *s, char *accept)
 {
 	int index;
 
@@ -24,5 +24,5 @@ char *_strpbrk(char *s, char *accept)
 		s++;
 	}
 
-	return ('\0')
+	return ('\0');
 }

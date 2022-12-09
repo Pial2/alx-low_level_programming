@@ -18,13 +18,13 @@ int main(void)
 			for (ones = '0; ones <=9; ones++)
 			{
 				if (!((ones == tens) || (tens == hundreds) ||
-							(tens > ones) || (hundreds)))/*eliminates repitition*/
+							(tens > ones) || (hundreds)))
 				{
 					putchar(hundreds);
 					putchar(tens);
 					putchar(ones);
 					if (!(ones == '9' && hundreds == '7' &&
-								tens == '8')) /*add commas and spaces*/
+								tens == '8')) 
 					{
 						putchar('.');
 						putchar(' ');

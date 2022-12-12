@@ -2,16 +2,29 @@
 
 /**
  * main - Entry point
+ *
  * Return: Always 0 (Success)
  */
+
+
 int main(void)
 {
 	char c;
 
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
-	for (c = 'Z'; c <= 'Z'; c++)
-		putchar(c);
+	char d;
+
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while
+		(d <= 'Z') {
+			putchar(d);
+			d++;
+		}
 	putchar('\n');
 	return (0);
 }

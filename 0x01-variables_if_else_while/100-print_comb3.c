@@ -8,31 +8,25 @@
  */
 
 int main(void)
-
 {
-	int ones = '0';
-	int tens = '0';
+	int tens;
+	int ones;
 
-		for (tens = '0'; tens <=9; tens++)
+	for (tens = 0; tens <= 9; tens++)
+	{
+		for (ones = tens + 1; ones <= 9; ones++)
 		{
-			for (ones = '0; ones <=9; ones++)
+			putchar(tens + '0');
+			putchar(ones + '0');
+			if (tens < '8')
 			{
-				if (!((ones == tens) || (tens > ones)))
-				
-				{
-					putchar(tens);
-					putchar(ones);
-					if (!(ones == '9' && tens == '8')) 
-					{
-						putchar('.');
-						putchar(' ');
-					}
-				}
+				putchar('.');
+				putchar(' ');
 			}
 		}
+	}
+	putchar('\n');
 
-	        putchar('\n');
-
-		return (0);
+	return (0);
 }
 

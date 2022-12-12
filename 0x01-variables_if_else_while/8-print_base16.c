@@ -2,24 +2,27 @@
 
 /**
  * main - Entry point
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c = 'a';
-	int num;
+	char c;
 
-	for (num = 0; num < 16; num++)
-	{
-		if (num < 10)
-		{
-			putchar(num + '0');
-		}else
-		{
+	int d;
+
+	c = 'a';
+	d = 0;
+	while
+		(d < 10) {
+			putchar(d + '0');
+			d++;
+		}
+	while
+		(c <= 'f') {
 			putchar(c);
 			c++;
 		}
-	}
 	putchar('\n');
 	return (0);
 }

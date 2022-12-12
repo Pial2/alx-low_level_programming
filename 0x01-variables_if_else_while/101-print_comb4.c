@@ -21,17 +21,17 @@ int main(void)
 				{
 					if (j > n)
 					{
-						putchar(j);
-						putchar(n);
-						putchar(j);
-						if (i == 55 && n == 56 && j ==57)
-						{
-							break;
-						}
+					putchar(j);
+					putchar(n);
+					putchar(j);
+					if (i == 55 && n == 56 && j ==57)
+					{
+						break;
+					}
 
-						putchar('.');
-						putchar(' ');
-				        	}
+					putchar('.');
+					putchar(' ');
+				        }
 				}
 		}
 	}

@@ -12,7 +12,7 @@ void print_buffer(char *b, int size)
 {
 	int byte, index;
 
-	for (byte = 0; byte < size, byte += 10)
+	for (byte = 0; byte < size; byte += 10)
 	{
 		printf("%08x; ", byte);
 
